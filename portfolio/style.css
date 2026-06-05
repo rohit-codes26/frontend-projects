@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+
+nav {
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #00ffff;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00ffff;
+}
+
+/* Hero */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    position: relative;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h3 {
+    font-size: 30px;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    color: #00ffff;
+}
+
+.hero-text h2 {
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.typing {
+    color: #00ffff;
+}
+
+.hero-text p {
+    margin-top: 20px;
+    line-height: 1.8;
+    color: #d1d1d1;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #00ffff;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 15px;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #00ffff;
+    color: #00ffff;
+}
+
+.socials {
+    margin-top: 30px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    color: #00ffff;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #00ffff, #0077ff);
+    box-shadow: 0 0 60px #00ffff;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Sections */
+
+section {
+    padding: 100px 10%;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #00ffff;
+}
+
+/* About */
+
+.about-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    flex: 1;
+    min-width: 280px;
+    background: #112e42;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.about-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Skills */
+
+.skill {
+    margin-bottom: 25px;
+}
+
+.bar {
+    width: 100%;
+    height: 12px;
+    background: #112e42;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: #00ffff;
+}
+
+.html {
+    width: 95%;
+}
+
+.css {
+    width: 90%;
+}
+
+.js {
+    width: 80%;
+}
+
+.python {
+    width: 85%;
+}
+
+/* Projects */
+
+.project-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    flex: 1;
+    min-width: 280px;
+    background: #112e42;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Contact */
+
+.contact-box {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #112e42;
+    color: white;
+}
+
+.contact-box button {
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: #00ffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #05111b;
+}
+
+/* Responsive */
+
+@media(max-width:900px) {
+
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin-top: 50px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+}
