@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Image Gallery</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="top-bar">
+      <h1>PIXORA</h1>
+
+      <div class="actions">
+        <input type="text" id="search" placeholder="Search images...">
+
+        <button id="themeBtn">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="filters">
+      <button class="active" data-name="all">All</button>
+      <button data-name="nature">Nature</button>
+      <button data-name="city">City</button>
+      <button data-name="animals">Animals</button>
+    </div>
+
+    <div class="gallery">
+
+      <div class="card" data-name="nature">
+        <img src="https://picsum.photos/id/1015/600/800">
+      </div>
+
+      <div class="card" data-name="city">
+        <img src="https://picsum.photos/id/1011/600/500">
+      </div>
+
+      <div class="card" data-name="animals">
+        <img src="https://picsum.photos/id/1025/600/700">
+      </div>
+
+      <div class="card" data-name="nature">
+        <img src="https://picsum.photos/id/1039/600/900">
+      </div>
+
+      <div class="card" data-name="city">
+        <img src="https://picsum.photos/id/1043/600/700">
+      </div>
+
+      <div class="card" data-name="animals">
+        <img src="https://picsum.photos/id/237/600/600">
+      </div>
+
+      <div class="card" data-name="nature">
+        <img src="https://picsum.photos/id/1056/600/750">
+      </div>
+
+      <div class="card" data-name="city">
+        <img src="https://picsum.photos/id/1060/600/800">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- LIGHTBOX -->
+
+  <div class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img">
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
