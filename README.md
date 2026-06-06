@@ -102,7 +102,7 @@ Advanced Mathematical Functions
 Developed by Rohit Meshram
 CSE Engineering Student
 ------------------------------------------------------------------------------------------------------------------------------------------
-uturistic Developer Portfolio
+futuristic Developer Portfolio
 
 A modern and responsive personal portfolio website built using HTML, CSS, and JavaScript. This project features a futuristic UI design with smooth animations, typing effects, responsive layouts, glowing effects, project showcase cards, social media integration, and an attractive developer-focused interface.
 
