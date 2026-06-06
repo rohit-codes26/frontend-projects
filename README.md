@@ -26,8 +26,11 @@ ModernGallery/
 Download or clone the repository
 Open project folder in VS Code
 Run index.html using Live Server
+🌐 Live Demo  
 
-🌐 Live Demo : https://rohit-codes26.github.io/frontend-projects/image-gallery/index.html
+After enabling GitHub Pages:
+
+https://rohit-codes26.github.io/frontend-projects/image-gallery/index.html
 
 📸 Project Preview
 
@@ -77,8 +80,11 @@ Calculator/
 Download or clone the repository
 Open project folder in VS Code
 Run index.html using Live Server
+🌐 Live Demo 
 
-🌐 Live Demo : https://rohit-codes26.github.io/frontend-projects/calculator/index.html
+After enabling GitHub Pages:
+
+https://rohit-codes26.github.io/frontend-projects/calculator/index.html
 
 📸 Project Preview
 
@@ -96,86 +102,60 @@ Advanced Mathematical Functions
 Developed by Rohit Meshram
 CSE Engineering Student
 ------------------------------------------------------------------------------------------------------------------------------------------
-Futuristic Developer Portfolio
+uturistic Developer Portfolio
 
-A modern and futuristic personal portfolio website built using HTML, CSS, and JavaScript. This portfolio is specially designed for showcasing skills, projects, social profiles, and developer achievements with a professional and attractive UI.
+A modern and responsive personal portfolio website built using HTML, CSS, and JavaScript. This project features a futuristic UI design with smooth animations, typing effects, responsive layouts, glowing effects, project showcase cards, social media integration, and an attractive developer-focused interface.
 
-The website includes smooth animations, glowing effects, responsive layouts, typing animations, interactive project cards, and modern glassmorphism-inspired design to create a strong impression on recruiters, LinkedIn visitors, and developers.
-
----
-
- ✨ Features
-
-* Modern Futuristic UI Design
-* Fully Responsive Layout
-* Animated Typing Effect
-* Smooth Hover Animations
-* Professional Hero Section
-* Skills Progress Bars
-* Interactive Project Cards
-* Contact Section
-* Social Media Integration
-* Mobile Friendly Design
-* Clean and Attractive Interface
-* LinkedIn Ready Portfolio
-* Smooth Scrolling Navigation
-* Modern Color Effects
-* Glassmorphism Inspired Design
-
----
-
- 🛠️ Technologies Used
-
-* HTML5
-* CSS3
-* JavaScript
-* Google Fonts
-
----
-
- 📂 Project Structure
-
-```bash
+✨ Features
+Modern Futuristic UI Design
+Fully Responsive Layout
+Animated Typing Effect
+Smooth Hover Animations
+Skills Progress Bars
+Interactive Project Cards
+Social Media Integration
+Professional Hero Section
+Contact Form Section
+Smooth Scrolling Navigation
+Glassmorphism Inspired UI
+Mobile Friendly Design
+🛠️ Technologies Used
+HTML5
+CSS3
+JavaScript
+Google Fonts
+📂 Project Structure
 Portfolio/
 │
 ├── index.html
 ├── style.css
 └── script.js
-
-How to Run
+🚀 How to Run
 Download or clone the repository
 Open project folder in VS Code
-Make sure all files are inside same folder
 Run index.html using Live Server
-Your portfolio website will open in browser
+🌐 Live Demo
 
-🌐 Live Demo : https://rohit-codes26.github.io/frontend-projects/portfolio/index.html
+After enabling GitHub Pages:
+
+https://rohit-codes26.github.io/frontend-projects/portfolio/index.html
 
 📸 Project Preview
 
-This project provides a modern developer portfolio experience with futuristic UI, animated sections, professional project showcase, and smooth user interaction.
+This project provides a modern and professional portfolio experience with futuristic design, animated sections, responsive layouts, and attractive project showcases.
 
-It is specially designed for:
-
-LinkedIn Portfolio
-Resume Showcase
-Placement Portfolio
-Internship Applications
-Developer Branding
 📌 Future Improvements
-Dark/Light Theme Toggle
+Dark & Light Theme Toggle
 AI Chatbot Integration
+Resume Download Feature
 3D Animations
-Particle Background Effects
-Resume Download System
-Dynamic GitHub Projects
+GitHub API Integration
 Certificates Section
-Blog Section
-Visitor Counter
 Backend Contact Form
-Admin Dashboard
-Firebase Integration
+Visitor Counter
+Particle Background Effects
+Blog Section
 👨‍💻 Developer
 
-Developed by Rohit Sukhdev Meshram
+Developed by Rohit Meshram
 CSE Engineering Student
