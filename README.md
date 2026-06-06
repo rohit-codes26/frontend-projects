@@ -26,11 +26,7 @@ ModernGallery/
 Download or clone the repository
 Open project folder in VS Code
 Run index.html using Live Server
-🌐 Live Demo
 
-After enabling GitHub Pages:
-
-https://rohit-codes26.github.io/modern-image-gallary/
 📸 Project Preview
 
 This project provides a modern user experience with stylish image presentation and interactive gallery features.
