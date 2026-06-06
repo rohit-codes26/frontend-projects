@@ -27,6 +27,8 @@ Download or clone the repository
 Open project folder in VS Code
 Run index.html using Live Server
 
+🌐 Live Demo : https://rohit-codes26.github.io/frontend-projects/image-gallery/index.html
+
 📸 Project Preview
 
 This project provides a modern user experience with stylish image presentation and interactive gallery features.
@@ -75,7 +77,8 @@ Calculator/
 Download or clone the repository
 Open project folder in VS Code
 Run index.html using Live Server
-🌐 Live Demo
+
+🌐 Live Demo : https://rohit-codes26.github.io/frontend-projects/calculator/index.html
 
 📸 Project Preview
 
@@ -145,7 +148,8 @@ Open project folder in VS Code
 Make sure all files are inside same folder
 Run index.html using Live Server
 Your portfolio website will open in browser
-🌐 Live Demo
+
+🌐 Live Demo : https://rohit-codes26.github.io/frontend-projects/portfolio/index.html
 
 📸 Project Preview
 
